@@ -1,7 +1,6 @@
 import React, {useState} from "react";
-import API from "../api";
+
 import User from "./user";
-import SearchStatus from "./searchStatus";
 
 
 const Users = ({usersArray, onDelete, onBookmark}) => {
